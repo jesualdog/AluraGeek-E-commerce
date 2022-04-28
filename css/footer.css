@@ -10,3 +10,11 @@
     font-size: 16px;
     color: #464646;
 }
+
+@media screen and (max-width: 768px){
+
+    .footer{
+        font-size: 14px;
+    }
+
+}

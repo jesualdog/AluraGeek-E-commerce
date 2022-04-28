@@ -5,7 +5,6 @@
     background-position: center center;
     position: static;
     width: 100%;
-    margin-bottom: 50px;
 }
 
 .texto{
@@ -37,5 +36,29 @@
     background: #2A7AE4;
     text-align: center;
     padding: 10px 0;
+}
+
+@media screen and (max-width: 768px){
+
+    .texto{
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+
+    .banner-titulo{
+        font-size: 1.5rem;
+    }
+
+    .banner-descripcion{
+        font-size: .8rem;
+        margin: 10px 0 10px 0;
+    }
+
+    .banner-boton{
+        width: 18vh;
+        font-size: .8rem;
+        padding: 8px 0;
+    }
+
 }
 

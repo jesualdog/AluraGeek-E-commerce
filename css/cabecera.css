@@ -41,6 +41,8 @@
     opacity: 50;
     background:#F5F5F5;
     cursor: pointer;
+    color: #A2A2A2;
+    font-size: 1rem;
 }
 
 .button-busqueda-login{
@@ -70,4 +72,31 @@
     font-size: 16px;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+
+    .busqueda{
+        display: none;
+    }
+
+    .button-busqueda-login{
+        display: flex;
+        font-size: 1rem;
+        background: #FFFFFF;
+        border: none;
+        color: #464646;
+      }
+
+      .cabecera_logo{
+        width: 7rem;
+        margin-right: 0;
+    }
+
+    .header-login{
+        width: 7rem;
+        height: 2rem;
+        font-size: 14px;
+    }
+  
 }
