@@ -1,0 +1,74 @@
+.productos{
+    background: #FFFFFF;
+}
+
+.producto-texto{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.producto-item{
+    width: 15.5%;
+    margin-bottom: 20px;
+}
+
+.producto-item img{
+    width: 100%;
+}
+
+.producto-titulo{
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.titulo-link{
+    display: flex;
+    align-items: center;
+}
+
+.titulo-link a{
+    text-decoration: none;
+    margin-right: 7px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2A7AE4;
+}
+
+.titulo-link i{
+    font-weight: 700;
+    font-size: 20px;
+    color: #2A7AE4;
+}
+
+.productos-starWars, .productos-consolas, .productos-diversos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 17px;
+}
+
+.producto-descripcion{
+    font-weight: 500;
+    font-size: 14px;
+    color: #464646;
+    margin-top: 2px;
+}
+
+.producto-precio{
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+    margin: 5px 0;
+}
+
+.producto-link{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2A7AE4;
+}
+
+
+

@@ -1,0 +1,73 @@
+.cabecera{
+    background: #FFFFFF;
+}
+
+.header-items{
+    display: flex;
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo-texto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cabecera_logo{
+    width: 10rem;
+    margin-right: 2rem;
+}
+
+.busqueda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.busqueda_campo{
+    padding: .75rem 1rem;
+    border-radius: 1.25rem;
+    width: 21.8rem;
+    border: none;
+    background: #F5F5F5;
+}
+
+.button-busqueda{
+    margin-left: -38px;
+    border: none;
+    opacity: 50;
+    background:#F5F5F5;
+    cursor: pointer;
+}
+
+.button-busqueda-login{
+  display: none;
+}
+
+.busqueda_campo::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    color: #A2A2A2;
+}
+
+.busqueda_campo:focus{
+    outline: none;
+    padding-right: 3rem;
+}
+
+.header-login{
+    display: flex;
+    width: 9rem;
+    height: 2.5rem;
+    text-decoration: none;
+    background: #FFFFFF;
+    color: #2A7AE4;
+    border: 2px solid #2A7AE4;
+    font-weight: 400px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
