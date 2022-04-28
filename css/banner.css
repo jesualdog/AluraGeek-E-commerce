@@ -1,6 +1,6 @@
 .banner{
     display: flex;
-    background-image: url(/assets/banner.png);
+    background-image: url(../assets/banner.png);
     background-size: cover;
     background-position: center center;
     position: static;
