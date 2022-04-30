@@ -60,14 +60,14 @@
     padding-right: 3rem;
 }
 
-.header-login{
+.boton-login{
     display: flex;
     width: 11vw;
     padding: 13px 0;
     text-decoration: none;
     background: #FFFFFF;
     color: #2A7AE4;
-    border: 2px solid #2A7AE4;
+    border: 1.5px solid #2A7AE4;
     font-weight: 400px;
     font-size: 16px;
     align-items: center;
@@ -86,7 +86,7 @@
 
     .button-busqueda-login{
         display: flex;
-        font-size: 15px;
+        font-size: 20px;
         background: #FFFFFF;
         border: none;
         color: #464646;
@@ -97,9 +97,10 @@
         margin-right: 0;
     }
 
-    .header-login{
-        font-size: 15px;
-        width: 20vw;
+    .boton-login{
+        font-size: 14px;
+        width: 26vw;
+        padding: 12px 0;
     }
   
 }

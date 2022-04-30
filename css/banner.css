@@ -2,9 +2,9 @@
     display: flex;
     background-image: url(../assets/banner.png);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     position: static;
-    width: 100vw;
+    width: 100%;
 }
 
 .texto{
@@ -41,17 +41,17 @@
 @media screen and (max-width: 768px){
 
     .banner-titulo{
-        font-size: 40px;
+        font-size: 22px;
     }
 
     .banner-descripcion{
-        font-size: 22px;
+        font-size: 15px;
         margin: 10px 0 10px 0;
     }
 
     .banner-boton{
-        font-size: 15px;
-        width: 20vw;
+        font-size: 14px;
+        width: 26vw;
     }
 
 }
