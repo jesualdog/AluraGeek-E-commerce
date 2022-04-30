@@ -4,13 +4,13 @@
     background-size: cover;
     background-position: center center;
     position: static;
-    width: 100%;
+    width: 100vw;
 }
 
 .texto{
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
+    margin-top: 150px;
     margin-bottom: 50px;
 }
 
@@ -24,7 +24,7 @@
     font-weight: 700;
     font-size: 1.375rem;
     color: #FFFFFF;
-    margin: 25px 0 20px 0;
+    margin: 15px 0 15px 0;
 }
 
 .banner-boton{
@@ -41,23 +41,21 @@
 @media screen and (max-width: 768px){
 
     .texto{
-        margin-top: 70px;
+        margin-top: 110px;
         margin-bottom: 40px;
     }
 
     .banner-titulo{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .banner-descripcion{
-        font-size: .8rem;
+        font-size: 1rem;
         margin: 10px 0 10px 0;
     }
 
     .banner-boton{
-        width: 18vh;
-        font-size: .8rem;
-        padding: 8px 0;
+        font-size: 14px;
     }
 
 }
