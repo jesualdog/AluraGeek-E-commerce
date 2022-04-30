@@ -13,6 +13,10 @@
     height: 3rem;
 }
 
+.rodapie_logo-informacion{
+    display: none;
+}
+
 .informacion{
     display: flex;
     flex-direction: column;
@@ -119,6 +123,29 @@
         font-size: 14px;
         width: 30vw;
     }
+}
 
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .rodapie_logo{
+        display: none;
+    }
+    
+    .rodapie_logo-informacion{
+        display: flex;
+    }
+
+    .formulario-contacto{
+        width: 60vw;   
+    }
+
+    .contacto-btn{
+        font-size: 14px;
+        width: 15vw;
+    }
+
+    .informacion a{
+        line-height: 30px;
+    }
 
 }

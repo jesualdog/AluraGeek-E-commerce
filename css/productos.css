@@ -91,6 +91,29 @@
     .no-visible{
         display: none;
     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .producto-titulo{
+        font-size: 22px;
+    }
+
+    .titulo-link a{
+        font-size: 14px;
+    }
+    
+    .titulo-link i{
+        font-size: 16px;
+    }
+
+    .producto-item{
+        width: 23%;
+    }
+
+    .no-visible{
+        display: none;
+    }
 
 }
 
