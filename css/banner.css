@@ -16,46 +16,42 @@
 
 .banner-titulo{
     font-weight: 700;
-    font-size: 3.25rem;
+    font-size: 52px;
     color: #FFFFFF;
 }
 
 .banner-descripcion{
     font-weight: 700;
-    font-size: 1.375rem;
+    font-size: 22px;
     color: #FFFFFF;
     margin: 15px 0 15px 0;
 }
 
 .banner-boton{
     text-decoration: none;
-    width: 20vh;
+    width: 11vw;
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
     background: #2A7AE4;
     text-align: center;
-    padding: 10px 0;
+    padding: 13px 0;
 }
 
 @media screen and (max-width: 768px){
 
-    .texto{
-        margin-top: 110px;
-        margin-bottom: 40px;
-    }
-
     .banner-titulo{
-        font-size: 2rem;
+        font-size: 40px;
     }
 
     .banner-descripcion{
-        font-size: 1rem;
+        font-size: 22px;
         margin: 10px 0 10px 0;
     }
 
     .banner-boton{
-        font-size: 14px;
+        font-size: 15px;
+        width: 20vw;
     }
 
 }
