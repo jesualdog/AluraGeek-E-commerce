@@ -62,7 +62,7 @@
 
 .boton-login{
     display: flex;
-    width: 11vw;
+    width: 10rem;
     padding: 12px 0;
     text-decoration: none;
     background: #FFFFFF;
@@ -86,7 +86,7 @@
 
     .button-busqueda-login{
         display: flex;
-        font-size: 20px;
+        font-size: 22px;
         background: #FFFFFF;
         border: none;
         color: #464646;
@@ -100,11 +100,15 @@
     .boton-login{
         font-size: 14px;
         font-weight: 600px;
-        width: 26vw;
+        width: 8rem;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .header-items{
+        height: 17vh;
+    }
 
     .busqueda_campo{
         width: 19rem;
@@ -118,6 +122,6 @@
     .boton-login{
         font-size: 14px;
         font-weight: 600px;
-        width: 20vw;
+        width: 9rem;
     } 
 }

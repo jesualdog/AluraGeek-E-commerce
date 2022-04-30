@@ -29,13 +29,13 @@
 
 .banner-boton{
     text-decoration: none;
-    width: 11vw;
+    width: 10rem;
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
     background: #2A7AE4;
     text-align: center;
-    padding: 13px 0;
+    padding: 12px 0;
 }
 
 @media screen and (max-width: 768px){
@@ -51,7 +51,8 @@
 
     .banner-boton{
         font-size: 14px;
-        width: 26vw;
+        font-weight: 600;
+        width: 8rem;
     }
 }
 
@@ -59,7 +60,8 @@
 
     .banner-boton{
         font-size: 14px;
-        width: 17vw;
+        font-weight: 600;
+        width: 9rem;
     }
 
 }
